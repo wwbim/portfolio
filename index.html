@@ -1,0 +1,858 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WANG Wei | BIM Manager & Digital Transformation Leader</title>
+  <meta name="description" content="Personal portfolio and professional profile of WANG Wei, BIM Manager with 20 years of civil engineering and infrastructure experience in Singapore.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+              accent: '#38bdf8',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Scrollbar & Utility Styles */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0b1120;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:hover {
+      border-color: rgba(56, 189, 248, 0.35);
+    }
+    .glow-bg {
+      background: radial-gradient(circle at 50% 0%, rgba(14, 165, 233, 0.15), transparent 70%);
+    }
+    .badge-pill {
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+    }
+  </style>
+</head>
+<body class="bg-[#0b1120] text-slate-200 antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- Glow Background Effect -->
+  <div class="fixed inset-0 pointer-events-none glow-bg z-0"></div>
+
+  <!-- Navigation Bar -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-600 to-cyan-400 flex items-center justify-center font-bold text-white shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform">
+          WW
+        </div>
+        <div class="flex flex-col">
+          <span class="font-bold text-slate-100 tracking-wide text-sm sm:text-base group-hover:text-sky-400 transition-colors">WANG Wei</span>
+          <span class="text-[11px] text-slate-400 font-mono">BIM Manager & VDC Lead</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-sky-400 transition-colors">About</a>
+        <a href="#skills" class="hover:text-sky-400 transition-colors">Expertise</a>
+        <a href="#portfolio" class="hover:text-sky-400 transition-colors">Portfolio</a>
+        <a href="#projects" class="hover:text-sky-400 transition-colors">Major Projects</a>
+        <a href="#experience" class="hover:text-sky-400 transition-colors">Experience</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-white bg-sky-600 hover:bg-sky-500 shadow-md shadow-sky-600/30 transition-all hover:scale-105">
+          <i data-lucide="mail" class="w-4 h-4"></i>
+          <span>Get in Touch</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10 pt-24 pb-20">
+    <!-- Hero Section -->
+    <section id="hero" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16 lg:pt-20 lg:pb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full badge-pill text-sky-400 text-xs font-semibold tracking-wide">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Singapore Civil Construction & Digital Delivery
+          </div>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+            Elevating Construction with <span class="bg-gradient-to-r from-sky-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">Digital Twins & BIM</span>
+          </h1>
+          <p class="text-lg text-slate-300 leading-relaxed max-w-2xl font-normal">
+            BIM Manager with <strong class="text-white font-semibold">20 years</strong> of Civil Infrastructure experience and <strong class="text-white font-semibold">10 years</strong> leading strategic BIM & VDC workflows across Singapore's landmark Mega Transit, Tunneling, and Highway developments.
+          </p>
+
+          <!-- Quick Metrics Bar -->
+          <div class="grid grid-cols-3 gap-4 pt-4 pb-2 border-y border-slate-800/80">
+            <div>
+              <div class="text-2xl sm:text-3xl font-bold text-white font-mono">20+</div>
+              <div class="text-xs text-slate-400 mt-1">Years Construction Exp.</div>
+            </div>
+            <div>
+              <div class="text-2xl sm:text-3xl font-bold text-sky-400 font-mono">15+</div>
+              <div class="text-xs text-slate-400 mt-1">LTA & Public Projects</div>
+            </div>
+            <div>
+              <div class="text-2xl sm:text-3xl font-bold text-cyan-300 font-mono">BCA</div>
+              <div class="text-xs text-slate-400 mt-1">BIM & VDC Specialist</div>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#portfolio" class="px-6 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-semibold text-sm shadow-lg shadow-sky-500/25 hover:shadow-sky-500/40 hover:-translate-y-0.5 transition-all flex items-center gap-2">
+              <i data-lucide="layers" class="w-4 h-4"></i>
+              Explore Digital Deliveries
+            </a>
+            <!-- LinkedIn Outline Icon Button -->
+            <a href="https://www.linkedin.com/in/wangweiww/" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl glass-card text-slate-300 hover:text-sky-400 hover:border-sky-500/50 hover:-translate-y-0.5 transition-all" title="LinkedIn Profile">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+            <!-- YouTube Outline Icon Button (Icon Only) -->
+            <a href="https://www.youtube.com/playlist?list=PLr52YDm_RStZsmlNylIP2ZfxsiIm5GWeG" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl glass-card text-slate-300 hover:text-red-400 hover:border-red-500/50 hover:-translate-y-0.5 transition-all" title="YouTube 4D Showcase Playlist">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Hero Card / Profile Highlights -->
+        <div class="lg:col-span-5">
+          <div class="glass-card rounded-2xl p-6 sm:p-8 space-y-6 relative overflow-hidden shadow-2xl">
+            <div class="absolute -top-12 -right-12 w-44 h-44 bg-sky-500/10 rounded-full blur-2xl"></div>
+
+            <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-slate-800 flex items-center justify-center text-sky-400 border border-slate-700">
+                  <i data-lucide="shield-check" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <h3 class="text-base font-bold text-white">WANG Wei</h3>
+                  <p class="text-xs text-sky-400">BIM Manager @ Samwoh</p>
+                </div>
+              </div>
+              <span class="text-xs px-2.5 py-1 rounded bg-emerald-500/10 text-emerald-400 font-mono border border-emerald-500/30">Singapore</span>
+            </div>
+
+            <!-- Credentials Pill List -->
+            <div class="space-y-3 text-sm">
+              <div class="flex items-start gap-3">
+                <i data-lucide="award" class="w-4 h-4 text-sky-400 mt-1 flex-shrink-0"></i>
+                <span class="text-slate-300"><strong class="text-slate-100">Specialist Diploma in BIM & VDC</strong> - BCA Academy Singapore</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-4 h-4 text-sky-400 mt-1 flex-shrink-0"></i>
+                <span class="text-slate-300"><strong class="text-slate-100">BCA iBEFP Trainer</strong> for Revizto (Digital Coordination)</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-4 h-4 text-sky-400 mt-1 flex-shrink-0"></i>
+                <span class="text-slate-300"><strong class="text-slate-100">Synchro Certified User</strong> (4D Virtual Construction)</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="graduation-cap" class="w-4 h-4 text-sky-400 mt-1 flex-shrink-0"></i>
+                <span class="text-slate-300"><strong class="text-slate-100">University of Science and Technology of China (USTC)</strong></span>
+              </div>
+            </div>
+
+            <!-- Fast Contact Bar -->
+            <div class="pt-4 border-t border-slate-800 grid grid-cols-2 gap-3">
+              <a href="mailto:wwbim@outlook.com" class="flex items-center justify-center gap-2 py-2 px-3 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs font-medium text-slate-200 transition-colors">
+                <i data-lucide="mail" class="w-3.5 h-3.5 text-sky-400"></i>
+                <span>wwbim@outlook.com</span>
+              </a>
+              <a href="https://t.me/wwbim" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 py-2 px-3 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 text-xs font-medium border border-emerald-500/30 transition-colors">
+                <i data-lucide="send" class="w-3.5 h-3.5 text-emerald-400"></i>
+                <span>Telegram (@wwbim)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Core Competencies / Bento Grid -->
+    <section id="skills" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-800/60">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-xs uppercase tracking-widest text-sky-400 font-mono font-semibold">Core Expertise</h2>
+        <p class="text-3xl font-extrabold text-white mt-2">End-to-End Digital Engineering Capabilities</p>
+        <p class="text-sm text-slate-400 mt-3">From tender animation and parametric design to on-site reality capture and 4D schedule simulation.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="glass-card rounded-xl p-6 hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-sky-500/10 border border-sky-500/30 flex items-center justify-center text-sky-400 mb-4">
+            <i data-lucide="clock" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">4D Virtual Construction & Simulation</h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-4">
+            Linking time schedules (Primavera P6 / MS Project) with 3D geometries using Synchro 4D to identify spatial clashes, optimize staging, and de-risk complex logistics.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Synchro 4D</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Logistics Staging</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Risk Mitigation</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="glass-card rounded-xl p-6 hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 mb-4">
+            <i data-lucide="scan" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Reality Capture & Laser Scanning</h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-4">
+            LiDAR terrestrial laser scanning and drone photogrammetry for accurate as-built verification, terrain modeling, and underground utility clash resolution.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Point Cloud</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Drone Survey</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">As-Built QA/QC</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="glass-card rounded-xl p-6 hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-4">
+            <i data-lucide="video" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Construction Animation & Visuals</h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-4">
+            High-impact 3D animation videos for LTA/URA tenders, technical method statements, traffic diversion schemes, and executive stakeholder reviews.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">3ds Max</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">ArchViz</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Tender Presentation</span>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="glass-card rounded-xl p-6 hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 mb-4">
+            <i data-lucide="git-merge" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Model Coordination & Clash Resolution</h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-4">
+            Leading multidisciplinary coordination across C&S, MEP, Architectural, and Rail Systems using Revizto and Navisworks to preempt on-site rework.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Revizto</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Navisworks</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">BIM Standards (ISO 19650)</span>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="glass-card rounded-xl p-6 hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 mb-4">
+            <i data-lucide="compass" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">360° Site Tours & Immersive XR</h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-4">
+            Deploying AR/VR/MR and 360° virtual site inspections for digital walkthroughs, remote site meetings, progress verification, and client alignment.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">360 Tour</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">AR/VR/MR</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Digital Twin</span>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="glass-card rounded-xl p-6 hover:-translate-y-1 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4">
+            <i data-lucide="bar-chart-3" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">BIM Analytics & 5D Quantity Takeoff</h3>
+          <p class="text-sm text-slate-300 leading-relaxed mb-4">
+            Extracting reliable quantity takeoffs directly from BIM models and coupling with Microsoft Power BI dashboards for real-time progress and cost insights.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Power BI</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">QTO Analysis</span>
+            <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300 font-mono">Civil 3D / Revit</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Gallery Grid (Carrd Upgrade Section) -->
+    <section id="portfolio" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-800/60">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+        <div>
+          <h2 class="text-xs uppercase tracking-widest text-sky-400 font-mono font-semibold">Featured Work & Gallery</h2>
+          <p class="text-3xl font-extrabold text-white mt-2">Visualizing Digital Engineering</p>
+        </div>
+        <p class="text-sm text-slate-400 max-w-md">
+          Explore key delivery disciplines captured across Singapore's major infrastructure contracts.
+        </p>
+      </div>
+
+      <!-- Portfolio Grid with Interactive Badges -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Item 1 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/61b8d2bf_original.jpg?v=fc58b9ac" alt="Construction Animation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">3D Simulation</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">Construction Animation</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">Dynamic visualization of complex construction sequences, earth retention, and structural methodologies.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Method Statement Staging</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/11a44adb_original.jpg?v=fc58b9ac" alt="4D Animation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">Synchro 4D</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">4D Animation & Planning</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">Synchronizing baseline schedules with spatial geometries to reveal temporal bottleneck challenges.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Time-Space Clash Detection</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/38217acf_original.jpg?v=fc58b9ac" alt="Model Coordination" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">Revizto / Navisworks</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">Model Coordination (C&S / MEP)</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">Multidisciplinary federated model clash detection, issue tracking, and constructability reviews.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Zero Rework Objective</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/f99f98c5_original.jpg?v=fc58b9ac" alt="Laser Scanning" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">LiDAR Terrestrial</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">Laser Scanning (Reality Capture)</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">High-definition point cloud survey of existing utilities, MRT depot structures, and clearance audits.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Millimeter Accuracy</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/e6045f83_original.jpg?v=fc58b9ac" alt="Drone Photogrammetry" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">Aerial Survey</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">Drone Photogrammetry</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">UAV photogrammetric 3D surface mesh generation for earthwork cut-and-fill and highway corridor mapping.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Site Topography & Orthomosaic</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/2f18eb9d_original.jpg?v=fc58b9ac" alt="Photogrammetry" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">Digital Modeling</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">Structural Photogrammetry</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">High-density mesh reconstruction for site conditions, civil inspection, and structural documentation.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Visual Condition Records</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/633e7dd1_original.jpg?v=fc58b9ac" alt="ArchViz" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">CGI & Rendering</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">ArchViz & Visual Storytelling</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">Photorealistic architectural rendering and aesthetic asset preparation for high-stakes presentations.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Executive Communications</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/8ee02374_original.jpg?v=fc58b9ac" alt="360 Photo Tour" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">Virtual Walkthrough</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">360° Photo Site Tour</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">Panoramic image tours tied to floor plans for remote site progress verification and safety audits.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Site Tele-presence</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="group relative rounded-2xl overflow-hidden glass-card hover:border-sky-500/50 transition-all duration-300 flex flex-col">
+          <div class="aspect-video w-full overflow-hidden relative bg-slate-900">
+            <img src="https://wwbim.carrd.co/assets/images/gallery01/3392e416_original.jpg?v=fc58b9ac" alt="AR / VR / MR" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[11px] font-mono font-medium px-2.5 py-1 rounded-full bg-slate-900/80 text-sky-300 border border-slate-700">Spatial XR</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">AR / VR / MR Immersive Tech</h3>
+              <p class="text-xs text-slate-400 mt-2 leading-relaxed">Augmented reality on-site overlay and virtual reality safety walk-throughs for digital transformation.</p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-sky-400 font-semibold">
+              <span>Interactive Site Overlay</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- YouTube Banner Callout -->
+      <div class="mt-12 rounded-2xl bg-gradient-to-r from-red-950/40 via-slate-900 to-sky-950/30 border border-red-900/30 p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4">
+          <div class="w-14 h-14 rounded-2xl bg-red-600/20 border border-red-500/30 flex items-center justify-center text-red-500 flex-shrink-0">
+            <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-white">Watch High-Resolution Demos on YouTube</h3>
+            <p class="text-sm text-slate-300 mt-1">Explore complete 4D sequence animations, site fly-throughs, and methodology videos.</p>
+          </div>
+        </div>
+        <a href="https://www.youtube.com/playlist?list=PLr52YDm_RStZsmlNylIP2ZfxsiIm5GWeG" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-semibold text-sm transition-all hover:scale-105 flex items-center gap-2 flex-shrink-0">
+          <span>Watch 4D Playlist</span>
+          <i data-lucide="external-link" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Key Infrastructure Projects Section -->
+    <section id="projects" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-800/60">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-xs uppercase tracking-widest text-sky-400 font-mono font-semibold">Track Record</h2>
+        <p class="text-3xl font-extrabold text-white mt-2">Landmark Singapore Infrastructure</p>
+        <p class="text-sm text-slate-400 mt-3">Direct BIM management, 4D modeling, and tender animation contribution across top public authority works.</p>
+      </div>
+
+      <!-- Filterable / Grouped Projects: 3x2 Grid (Themed by Client Agency) -->
+      <!-- Filterable / Grouped Projects: 3x2 Grid (Themed by Client Agency) -->
+      <!-- Filterable / Grouped Projects: 3x2 Grid (Themed by Client Agency) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Project 1: DTL2e 990 (LTA - Deep Navy Blue #0066b2) -->
+        <div class="glass-card rounded-xl p-6 border-l-4 border-l-[#0066b2] flex flex-col justify-between hover:border-l-[#38bdf8] transition-all">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono mb-3">
+              <div class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-[#0066b2]/20 border border-[#0066b2]/40 text-sky-300 font-semibold">
+                <span class="w-1.5 h-1.5 rounded-full bg-sky-400 animate-pulse"></span>
+                <span>LTA &middot; DTL2e MRT</span>
+              </div>
+              <span class="text-slate-400">2026 - Present</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">
+              DTL2e 990 Sungei Kadut Interchange Station
+            </h3>
+            <p class="text-xs text-slate-300 mt-2.5 leading-relaxed">
+              Design & construction of Singapore's key DTL2e interchange linking elevated NSL with underground Downtown Line stations, spearheading strategic BIM/VDC management, deep ERSS, and critical civil interfaces.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center gap-2 text-[11px] text-slate-400 font-mono">
+            <span class="px-2 py-0.5 rounded bg-slate-800/80 text-sky-300">Client: LTA</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Interchange</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">DTL2e</span>
+          </div>
+        </div>
+
+        <!-- Project 2: CRL CR116 Ang Mo Kio (LTA - Deep Navy Blue #0066b2) -->
+        <div class="glass-card rounded-xl p-6 border-l-4 border-l-[#0066b2] flex flex-col justify-between hover:border-l-[#38bdf8] transition-all">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono mb-3">
+              <div class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-[#0066b2]/20 border border-[#0066b2]/40 text-sky-300 font-semibold">
+                <span class="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                <span>LTA &middot; CRL MRT</span>
+              </div>
+              <span class="text-slate-400">2021 - 2022</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">
+              CRL CR116 Ang Mo Kio MRT Interchange
+            </h3>
+            <p class="text-xs text-slate-300 mt-2.5 leading-relaxed">
+              BIM Manager for the Cross Island Line interchange with existing North-South Line. Coordinated deep excavation, underpinning, ERSS, and civil phasing.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center gap-2 text-[11px] text-slate-400 font-mono">
+            <span class="px-2 py-0.5 rounded bg-slate-800/80 text-sky-300">Client: LTA</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Gammon</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Interchange</span>
+          </div>
+        </div>
+
+        <!-- Project 3: DE151 & DE182 Changi Corridors (LTA - Deep Navy Blue #0066b2) -->
+        <div class="glass-card rounded-xl p-6 border-l-4 border-l-[#0066b2] flex flex-col justify-between hover:border-l-[#38bdf8] transition-all">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono mb-3">
+              <div class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-[#0066b2]/20 border border-[#0066b2]/40 text-sky-300 font-semibold">
+                <span class="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                <span>LTA &middot; Expressways</span>
+              </div>
+              <span class="text-slate-400">2024</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">
+              DE151 & DE182 Changi Corridors
+            </h3>
+            <p class="text-xs text-slate-300 mt-2.5 leading-relaxed">
+              Changi Southern & Northern Corridor arterial expansion, viaducts, road diversions, and comprehensive utilities realignment modeling.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center gap-2 text-[11px] text-slate-400 font-mono">
+            <span class="px-2 py-0.5 rounded bg-slate-800/80 text-sky-300">Client: LTA</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Samwoh</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Corridors</span>
+          </div>
+        </div>
+
+        <!-- Project 4: URA Bishan-to-City PIE Link (URA - Signature Heritage Red #e32434) -->
+        <div class="glass-card rounded-xl p-6 border-l-4 border-l-[#e32434] flex flex-col justify-between hover:border-l-rose-400 transition-all">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono mb-3">
+              <div class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-[#e32434]/20 border border-[#e32434]/40 text-rose-300 font-semibold">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#e32434]"></span>
+                <span>URA &middot; Urban Connector</span>
+              </div>
+              <span class="text-slate-400">2024 - Present</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">
+              URA Bishan-to-City PIE Link
+            </h3>
+            <p class="text-xs text-slate-300 mt-2.5 leading-relaxed">
+              Pedestrian and cycling connectivity over the Pan Island Expressway. Complex steel truss erection sequencing, crane radius simulations, and traffic closure animations.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center gap-2 text-[11px] text-slate-400 font-mono">
+            <span class="px-2 py-0.5 rounded bg-slate-800/80 text-rose-300">Client: URA</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Pedestrian Link</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">4D Rigging</span>
+          </div>
+        </div>
+
+        <!-- Project 5: TEL Havelock & Mayflower Stations (LTA - Deep Navy Blue #0066b2) -->
+        <div class="glass-card rounded-xl p-6 border-l-4 border-l-[#0066b2] flex flex-col justify-between hover:border-l-[#38bdf8] transition-all">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono mb-3">
+              <div class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-[#0066b2]/20 border border-[#0066b2]/40 text-sky-300 font-semibold">
+                <span class="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                <span>LTA &middot; TEL MRT</span>
+              </div>
+              <span class="text-slate-400">2015 - 2018</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">
+              TEL T221 Havelock & T210 Mayflower Stations
+            </h3>
+            <p class="text-xs text-slate-300 mt-2.5 leading-relaxed">
+              Thomson-East Coast Line underground metro stations. Full BIM lifecycle coordination, mined tunnel interfaces, shaft construction, and station box coordination.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center gap-2 text-[11px] text-slate-400 font-mono">
+            <span class="px-2 py-0.5 rounded bg-slate-800/80 text-sky-300">Client: LTA</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Underground</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Civil 3D / Revit</span>
+          </div>
+        </div>
+
+        <!-- Project 6: Sentosa Sensoryscape & Global Switch (SDC - Radiant Sunset Orange #f58220) -->
+        <div class="glass-card rounded-xl p-6 border-l-4 border-l-[#f58220] flex flex-col justify-between hover:border-l-amber-400 transition-all">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono mb-3">
+              <div class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-[#f58220]/20 border border-[#f58220]/40 text-amber-300 font-semibold">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#f58220]"></span>
+                <span>SDC &middot; Attraction</span>
+              </div>
+              <span class="text-slate-400">2016 - 2021</span>
+            </div>
+            <h3 class="text-lg font-bold text-white">
+              Sentosa Sensoryscape & Global Switch
+            </h3>
+            <p class="text-xs text-slate-300 mt-2.5 leading-relaxed">
+              Multisensory experiential canopy walkway at Sentosa; Tier IV High-density Data Center in Woodlands. Complex MEP services, diagrid structural geometry, and acoustic models.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center gap-2 text-[11px] text-slate-400 font-mono">
+            <span class="px-2 py-0.5 rounded bg-slate-800/80 text-amber-300">Client: SDC / GS</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Data Center</span>
+            <span class="px-2 py-0.5 rounded bg-slate-800">Geometries</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- More Projects Badges Strip -->
+      <div class="mt-8 glass-card rounded-xl p-5 flex flex-wrap items-center gap-2 text-xs">
+        <span class="text-slate-400 font-semibold mr-2">Additional Major Contracts:</span>
+        <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 font-mono">C1761 & C1750 Bishan & Ulu Pandan Depots A&A</span>
+        <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 font-mono">DE159 Lim Chu Kang</span>
+        <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 font-mono">DE176 Serangoon / Tampines</span>
+        <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 font-mono">ER489 PIE Exit & Underpass</span>
+        <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 font-mono">RC133 Road Infrastructure</span>
+        <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 font-mono">Neste Expansion</span>
+        <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 font-mono">URA Mole Phase I & II</span>
+        <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 font-mono">Grace Assembly Church</span>
+      </div>
+    </section>
+
+    <!-- Career Experience Timeline -->
+    <section id="experience" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-800/60">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs uppercase tracking-widest text-sky-400 font-mono font-semibold">Career Milestones</h2>
+        <p class="text-3xl font-extrabold text-white mt-2">20 Years of Growth in Civil Engineering</p>
+      </div>
+
+      <div class="relative border-l-2 border-slate-800 max-w-3xl mx-auto ml-4 sm:ml-auto pl-6 sm:pl-8 space-y-12">
+        
+        <!-- Milestone 1 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-[#0b1120] group-hover:scale-125 transition-transform"></div>
+          <div class="flex items-center gap-3 mb-1">
+            <span class="text-xs font-mono font-bold text-sky-400">2023 - Present</span>
+            <span class="text-xs px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Current Role</span>
+          </div>
+          <h3 class="text-lg font-bold text-white">BIM Manager</h3>
+          <p class="text-sm text-slate-400 font-medium">Samwoh Corporation Pte Ltd &middot; Singapore</p>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Leading the corporate BIM strategic roadmap, civil digital delivery, highway corridor modeling (DE151, DE182), tender 4D simulations, reality capturing, and staff mentoring.
+          </p>
+        </div>
+
+        <!-- Milestone 2 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-[#0b1120] group-hover:scale-125 transition-transform"></div>
+          <div class="flex items-center gap-3 mb-1">
+            <span class="text-xs font-mono text-slate-400">2021 - 2022</span>
+          </div>
+          <h3 class="text-lg font-bold text-white">BIM Manager (LTA CR116 AMK Interchange)</h3>
+          <p class="text-sm text-slate-400 font-medium">Gammon Construction Limited &middot; Singapore</p>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Spearheaded the BIM division for the landmark Cross Island Line CR116 mega-contract. Managed federated models across civil, structural, architectural, and M&E systems.
+          </p>
+        </div>
+
+        <!-- Milestone 3 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-[#0b1120] group-hover:scale-125 transition-transform"></div>
+          <div class="flex items-center gap-3 mb-1">
+            <span class="text-xs font-mono text-slate-400">2017 - 2021</span>
+          </div>
+          <h3 class="text-lg font-bold text-white">Project BIM Engineer / BIM Engineer</h3>
+          <p class="text-sm text-slate-400 font-medium">Gammon Construction Limited &middot; Singapore</p>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Delivered 3D modeling, laser scanning audits, and 4D virtual simulation for Thomson-East Coast Line MRT Stations (Havelock T221, Mayflower T210) and Sentosa Sensoryscape.
+          </p>
+        </div>
+
+        <!-- Milestone 4 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-[#0b1120] group-hover:scale-125 transition-transform"></div>
+          <div class="flex items-center gap-3 mb-1">
+            <span class="text-xs font-mono text-slate-400">2007 - 2017</span>
+          </div>
+          <h3 class="text-lg font-bold text-white">Senior Draftsman & Draftsman</h3>
+          <p class="text-sm text-slate-400 font-medium">Gammon Construction Limited &middot; Singapore</p>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Over a decade of hands-on civil structural shop drawing production, depot expansion works (Bishan & Ulu Pandan), and underground obstruction removal (URA Mole I & II).
+          </p>
+        </div>
+
+        <!-- Milestone 5 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-[#0b1120] group-hover:scale-125 transition-transform"></div>
+          <div class="flex items-center gap-3 mb-1">
+            <span class="text-xs font-mono text-slate-400">2005 - 2007</span>
+          </div>
+          <h3 class="text-lg font-bold text-white">Engineering Draftsman (MRT Platform Screen Doors)</h3>
+          <p class="text-sm text-slate-400 font-medium">Aceplp.com Pte Ltd &middot; Singapore</p>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+            Produced detailed mechanical models & drawings for Westinghouse MRT Platform Screen Door (PSD) systems across Singapore NEL, Beijing Line 5, Shanghai Line 1, and Guangzhou Line 4.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact & Connect Footer Section -->
+    <section id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-slate-800/60">
+      <div class="glass-card rounded-3xl p-8 sm:p-12 relative overflow-hidden text-center max-w-4xl mx-auto">
+        <div class="absolute inset-0 bg-gradient-to-b from-sky-500/10 via-transparent to-transparent pointer-events-none"></div>
+
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Let's Connect & Collaborate</h2>
+        <p class="text-sm sm:text-base text-slate-300 mt-3 max-w-xl mx-auto">
+          Whether you want to discuss BIM strategies, 4D simulation, reality capturing consulting, or infrastructure delivery, feel free to reach out.
+        </p>
+
+        <!-- Social Buttons 2x2 Balanced Grid (Aligned Logos & Left-Aligned Text) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 max-w-xl mx-auto">
+          <!-- Item 1: Email (Electric Sky Blue Tint & Elevated Shadow) -->
+          <a href="mailto:wwbim@outlook.com" class="h-14 px-5 rounded-2xl bg-gradient-to-r from-sky-900/50 via-slate-900/90 to-slate-900 border border-sky-500/30 hover:border-sky-400 text-slate-100 hover:text-white font-semibold text-sm transition-all hover:-translate-y-1 shadow-lg shadow-sky-950/60 hover:shadow-sky-500/25 flex items-center gap-3.5 group relative overflow-hidden">
+            <div class="absolute inset-0 bg-sky-400/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-8 h-8 rounded-lg bg-sky-500/20 border border-sky-400/30 flex items-center justify-center text-sky-400 group-hover:scale-110 transition-transform shadow-inner flex-shrink-0">
+              <i data-lucide="mail" class="w-4 h-4"></i>
+            </div>
+            <span class="tracking-wide text-left truncate">wwbim@outlook.com</span>
+          </a>
+
+          <!-- Item 2: Telegram (Distinct Emerald Teal Tint & Elevated Shadow) -->
+          <a href="https://t.me/wwbim" target="_blank" rel="noopener noreferrer" class="h-14 px-5 rounded-2xl bg-gradient-to-r from-emerald-950/70 via-slate-900/90 to-slate-900 border border-emerald-500/30 hover:border-emerald-400 text-slate-100 hover:text-white font-semibold text-sm transition-all hover:-translate-y-1 shadow-lg shadow-emerald-950/60 hover:shadow-emerald-500/25 flex items-center gap-3.5 group relative overflow-hidden">
+            <div class="absolute inset-0 bg-emerald-400/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-8 h-8 rounded-lg bg-emerald-500/20 border border-emerald-400/30 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition-transform shadow-inner flex-shrink-0">
+              <i data-lucide="send" class="w-4 h-4"></i>
+            </div>
+            <span class="tracking-wide text-left truncate">Telegram (@wwbim)</span>
+          </a>
+
+          <!-- Item 3: LinkedIn (Royal Navy Blue Tint & Elevated Shadow) -->
+          <a href="https://www.linkedin.com/in/wangweiww/" target="_blank" rel="noopener noreferrer" class="h-14 px-5 rounded-2xl bg-gradient-to-r from-blue-900/50 via-slate-900/90 to-slate-900 border border-blue-500/30 hover:border-blue-400 text-slate-100 hover:text-white font-semibold text-sm transition-all hover:-translate-y-1 shadow-lg shadow-blue-950/60 hover:shadow-blue-500/25 flex items-center gap-3.5 group relative overflow-hidden">
+            <div class="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-8 h-8 rounded-lg bg-[#0a66c2]/20 border border-blue-400/30 flex items-center justify-center text-[#38bdf8] group-hover:scale-110 transition-transform shadow-inner flex-shrink-0">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </div>
+            <span class="tracking-wide text-left truncate">LinkedIn Profile</span>
+          </a>
+
+          <!-- Item 4: YouTube (Ruby Crimson Tint & Elevated Shadow) -->
+          <a href="https://www.youtube.com/@wwbim" target="_blank" rel="noopener noreferrer" class="h-14 px-5 rounded-2xl bg-gradient-to-r from-red-950/60 via-slate-900/90 to-slate-900 border border-red-500/30 hover:border-red-400 text-slate-100 hover:text-white font-semibold text-sm transition-all hover:-translate-y-1 shadow-lg shadow-red-950/60 hover:shadow-red-500/25 flex items-center gap-3.5 group relative overflow-hidden">
+            <div class="absolute inset-0 bg-red-500/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-8 h-8 rounded-lg bg-red-500/20 border border-red-400/30 flex items-center justify-center text-[#ff0000] group-hover:scale-110 transition-transform shadow-inner flex-shrink-0">
+              <svg class="w-4 h-4 text-red-400" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </div>
+            <span class="tracking-wide text-left truncate">YouTube Channel</span>
+          </a>
+        </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>&copy; 2026 WANG Wei. Elevating Construction through Digital Innovation.</p>
+      <p class="font-mono">Hosted with GitHub Pages &middot; Crafted with Precision</p>
+    </div>
+  </footer>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
