@@ -8,11 +8,10 @@ echo.
 
 cd /d "%~dp0"
 
-REM Configure safe directory for this workspace
 git config --global --add safe.directory "%CD%"
 
-REM Push main branch to remote origin
-git push -u origin main
+REM Force push local commits to remote to overwrite GitHub default initial commit
+git push -u origin main --force
 
 if %ERRORLEVEL% EQU 0 (
     echo.
@@ -21,7 +20,7 @@ if %ERRORLEVEL% EQU 0 (
     echo.
     echo   Next Step: Enable GitHub Pages in your repo:
     echo   1. Go to: https://github.com/wwbim/portfolio/settings/pages
-    echo   2. Under 'Branch', select 'main' / '(root)', then click Save
+    echo   2. Under Branch, select main / (root), then click Save
     echo   3. Your site will be live at:
     echo      https://wwbim.github.io/portfolio/
     echo ========================================================
